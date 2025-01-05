@@ -54,20 +54,20 @@ export default {
 
 .footer-container {
   display: flex;
-  justify-content: space-between; /* Mengubah dari space-evenly ke space-between */
+  justify-content: space-between;
   background-color: black;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  padding: 40px 80px; /* Menambah padding container untuk spacing yang lebih baik */
+  padding: 40px 80px;
   box-sizing: border-box; /* Memastikan padding tidak menambah width */
 }
 
 .footer-section {
   display: flex;
   flex-direction: column;
-  flex: 1; /* Membuat setiap section memiliki lebar yang sama */
-  max-width: 300px; /* Membatasi lebar maksimal */
-  padding: 0 20px; /* Padding horizontal untuk spacing antar section */
+  flex: 1;
+  max-width: 300px;
+  padding: 0 20px;
   color: white;
 }
 
@@ -76,33 +76,33 @@ export default {
   font-style: italic;
   color: #c99947;
   font-weight: 400;
-  margin: 0 0 15px 0; /* Menyesuaikan margin */
+  margin: 0 0 15px 0;
 }
 
 .section-heading {
   font-size: 18px;
   font-weight: 400;
   color: white;
-  margin: 0 0 20px 0; /* Menyesuaikan margin */
+  margin: 0 0 20px 0;
 }
 
 .section-text {
   font-size: 14px;
   font-weight: 400;
   color: #888888;
-  margin: 8px 0; /* Menyeragamkan margin antar text */
-  transition: color 0.3s ease; /* Animasi hover */
+  margin: 8px 0;
+  transition: color 0.3s ease;
 }
 
 .section-text:hover {
-  color: #c99947; /* Efek hover */
+  color: #c99947;
   cursor: pointer;
 }
 
 .contact-phone,
 .copyright {
   color: #888888;
-  margin: 8px 0; /* Menyeragamkan margin */
+  margin: 8px 0;
 }
 .contact-phone {
   color: #fff;
@@ -148,18 +148,18 @@ export default {
   .footer-container {
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px; /* Mengurangi padding di mobile */
+    padding: 40px 20px;
   }
 
   .footer-section {
-    margin: 0 0 40px 0; /* Spacing antar section di mobile */
+    margin: 0 0 40px 0;
     padding: 0;
     text-align: center;
-    max-width: 100%; /* Full width di mobile */
+    max-width: 100%;
   }
 
   .footer-section:last-child {
-    margin-bottom: 0; /* Menghilangkan margin bottom di section terakhir */
+    margin-bottom: 0;
   }
 }
 </style>

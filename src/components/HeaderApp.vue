@@ -94,8 +94,7 @@ export default {
 }
 
 .separator {
-  font-size: 30px; /* Adjust to match icon size */
-  color: #333;
+  font-size: 30px;
   margin: 0;
   line-height: 1;
   font-weight: 100;
